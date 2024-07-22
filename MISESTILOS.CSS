@@ -1,0 +1,445 @@
+/* SELECTOR POR ETIQUETA */
+body{
+    background-color: lightblue;
+    font-weight: arial;
+}
+nav{
+    width: 90%;
+    height: 95px;
+    color: azure;
+    background-color: black;
+    display:flex;
+    justify-content: space-between;
+    vertical-align: text-top;
+    align-items: center;
+    text-align: center;
+    align-content: center;
+    margin: -10px;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 40px;
+    font-size: 20px;
+}
+a:hover {
+    color: azure;
+    background-color: black;
+}
+.contentenedor {
+   display: flex;
+   align-content: center;
+   align-items: center;
+   justify-content: center;
+}
+.fotoprincipal {
+    width: 100%;
+    height: 600px;
+    display: flex;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+}
+.principal{
+    color: black;
+    text-align: center;
+    align-items: center;
+    margin-top: -30%;
+    font-size: 50px;
+    padding: 20px;
+}
+.uno{
+    font-size: 30px;
+    text-align: center;
+    align-items: center;
+    padding: 20px;
+    vertical-align: top;
+    color:black;
+}
+.icon{
+    display:flex;
+}
+.dos{
+    text-align: left;
+    justify-content: left;
+    font-size: 30px;
+    color:black;
+    margin-top: 5%;
+    padding-left: 15px;
+    border-radius: 2px;
+}   
+.la-phone-volume{
+    color: black;
+    font-size: 30px;
+    margin-top: 5%;
+    padding-left: 3%;
+}
+.tres{
+    text-align: right;
+    justify-content: right;
+    font-size: 30px;
+    color:black;
+    margin-top: -3.5%;
+    padding-right: 2em;
+}
+.tratamientos{
+    display: flex;
+    text-align: center;
+    align-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    font-size: 25px;
+}
+.tratamientos_destacados{
+    width: 100%;
+    height: 500px;
+    background-color: white;
+}
+.cuatro{
+    color: darkmagenta;
+    text-align: center;
+    margin-top: 6%;
+    font-size: 40px;
+}
+.cinco {
+    color: black;
+    display: flex;
+    text-align: center;
+    align-content: center;
+    justify-content: center; 
+    font-size: 30px;
+}
+.contenido{
+    display: flex;
+    text-align: center;
+    align-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+    font-size: 25px;
+    margin-top: -18%;
+}
+.modificado_item{
+    color: black;
+    background-color: antiquewhite;
+    border: solid 1px;
+}
+.elementos{
+    width: 100%;
+    height: 230px;
+    background-color: white;
+    border-top:solid 5px darkmagenta;
+} 
+.imagen2 {
+    width: 37%;
+    height: 230px;
+    display: flex;
+    text-align: right;
+    float: right;
+    padding-right: 20px;
+    border-radius: 3px;
+}    
+h2 {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}         
+.info{
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  font-size: 30px;
+  color: black;
+} 
+.contenedor1{
+    display: flex;
+    text-align: center;
+    align-content: center;
+    flex-direction: column;
+    width: 100%;
+    height: 450px;  
+    background-color: lightpink;
+}
+.contenedor2{
+    display: flex;
+    text-align: center;
+    align-content: center;
+    justify-content: center;
+    flex-direction: column;
+}  
+.centrado{ 
+    margin-top: -0%;
+    color: black;
+    font-size: 50px;
+}
+.contenedor3{
+    display: flex;
+    text-align: center;
+    align-content: center;
+    justify-content: center;
+    flex-direction: row;
+    margin-top: -1%;
+} 
+.numero1 {
+    margin-top: -1%;
+    color: black;
+    font-size: 35px;
+}
+.numero2{
+    text-align: left;
+    font-size: 30px;
+    color: black;
+}
+.numero3{
+    text-align: center;
+    font-size: 30px;
+    color: black;
+}
+.numero4{
+    text-align: center;
+    font-size: 30px;
+    color: black;
+}
+.numero5{
+    text-align: center;
+    font-size: 30px;
+    color: black;
+}
+.resultados-comprobados{
+    width: 100%;
+    height: 600px;
+    background-color: black;
+    text-align:center;
+    justify-content: center;
+    align-content: center;
+}
+.resultados{
+    width: 50%;
+    height: 500px;
+    text-align:center;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    background-color: white;
+    border: solid 4px darkmagenta;
+}
+h3{
+    display: flex;
+    text-align: left;
+    justify-content: left;
+    color:darkmagenta;
+    padding-left: 15%;
+    font-size: 30px;
+}
+.numero6{
+    text-align: left;
+    color: black;
+    font-size: 23px;
+}
+.imagen3{
+    width: 450px;
+    height: 300px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    padding-left: 8%;
+}
+.antesydespues{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    color: black;
+    font-size: 25px;
+    margin-top: -3%;
+    gap: 20%;
+}
+.numero7{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.numero8{
+    text-align: center;
+    color: black;
+    font-size: 25px;
+}
+
+.descuentos{
+    display: flex;
+    text-align: center;
+    justify-content: center; 
+    align-items: center;
+    flex-direction: column;
+    float: right;
+    margin-top: -35%;                          
+}
+.numero9{
+    text-align: right;
+    justify-content: right;
+    color: white;
+    font-size: 60px;
+}
+.numero10{
+    text-align: right;
+    justify-content: right;
+    color: white;
+    font-size: 35px;
+    margin-top: 3%;
+}
+.numero11{
+    color: darkgrey;
+    font-size: 35px;
+    text-align: center;
+    justify-content: center;
+    width: 95%;
+    height: 90px;
+    background-color: white;
+    margin-top: 3%;
+}
+.otro-color{
+   color: hotpink;
+}
+.numero12{
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    flex-direction: column;
+    margin-top: 3%;
+}
+.imagen4{
+    width: 100%;
+    height: 30%;
+    display: block;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.informacion{
+    display: flex;
+    text-align: center;
+    align-content: center;
+    justify-content: center;
+    width: 100%;
+    height: 550px;  
+    background-color: black;
+}    
+.numero13{
+    font-size: 50px;
+    color: white;
+}
+.numero14{
+    text-align: center;
+    color: darkmagenta;
+    font-size: 30px;
+}
+.contacto{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    padding-left: 10%;
+}
+.nombre{
+    text-align: left;
+    color: lightsteelblue;
+    width: 20%;
+    height: 30px;
+    font-size: 20px;
+    background-color: white;
+    border-radius: 1px;
+}
+.email{
+    text-align: left;
+    color: lightsteelblue;
+    width: 20%;
+    height: 30px;
+    font-size: 20px;
+    background-color: white;
+    border-radius: 1px;
+    margin-top: 2px;
+}
+.telefon{
+    text-align: left;
+    color: lightsteelblue;
+    width: 20%;
+    height: 30px;
+    font-size: 20px;
+    background-color: white;
+    border-radius: 1px;
+    margin-top: 2px;
+}
+.mensaje{
+    text-align: left;
+    color: lightsteelblue;
+    width: 20%;
+    height: 65px;
+    font-size: 20px;
+    background-color: white;
+    border-radius: 1px;
+    margin-top: 2px;
+}
+.enviar{
+    text-align: center;
+    color: white;
+    width: 10%;
+    height: 25px;
+    font-size: 20px;
+    background-color: lightcoral;
+    border-radius: 2px;
+    margin-top: 2px;
+}
+.informacionlugar{
+    display: flex;
+    flex-direction: column;
+    float: right;
+    clear: right;
+    margin-top: -15%;
+    padding-right: 15%;
+    border-top: 1px;
+}
+.direccion{
+    font-size: 30px;
+    color: white;
+}
+.telefono{
+    font-size: 30px;
+    color: white;
+    margin-top: 1px;
+}
+hr{
+    background-color: white;
+    width: 80%;
+    height: 2px;
+}
+.iconos{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: right;
+    text-align: right;
+    margin-top: -4%;
+    gap: 20px;
+    color: white;
+    font-size: 50px;
+}
+.labla-instagram{
+    color: white;
+    font-size: 50px;
+} 
+.labla-facebook{
+    color: white;
+    font-size: 50px;
+}
+.icons{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    margin-top: 3%;
+    color: white;
+    gap: 30px;
+    font-size: 60px;
+}
+.labla-instagram{
+    color: white;
+    font-size: 60px;
+} 
+.labla-facebook{
+    color: white;
+    font-size: 60px;
+}
